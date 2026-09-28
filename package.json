@@ -1,0 +1,31 @@
+{
+  "name": "learning-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/shariq-gazdar/learning-backend#readme",
+  "bugs": {
+    "url": "https://github.com/shariq-gazdar/learning-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shariq-gazdar/learning-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.9"
+  }
+}
